@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": ["Ludovic David"],
+        "license": "MIT"
+    },
+    "header": {
+        "name": "Fallen Kingdoms",
+        "description": "Choose a team, set a base and fight with the Fallen Kingdoms (FK) rules",
+        "uuid": "6f3a4325-4ce5-42f5-b141-12641c8823c3",
+        "min_engine_version": [1, 20, 10],
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack Module",
+            "type": "data",
+            "uuid": "5a080d1d-bef8-47ce-aae1-a2ec3e0010ab",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Main Fallen Kingdoms script",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "53a5804b-fb35-4f7d-a89e-e4a925fadb77",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        },
+        {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0"
+		}
+    ]
+}
