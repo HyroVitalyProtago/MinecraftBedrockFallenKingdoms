@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="256" height="256" src="pack_icon.png">
+</p>
+
 # Minecraft Bedrock (1.20) Fallen Kingdoms
 Fallen Kingdoms behaviour pack for Minecraft Bedrock
 
