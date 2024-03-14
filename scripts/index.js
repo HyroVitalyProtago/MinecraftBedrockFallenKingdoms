@@ -62,8 +62,7 @@ function inOverworld(player) {
 }
 
 // Prevent player to place a block outside its base except
-// - tnt, torch, torch_redstone, lever, boat
-const allowedOutsideBase = ['tnt', 'torch', 'lever', 'boat']
+const allowedOutsideBase = ['tnt', 'torch', 'lever', 'boat', 'bucket']
 world.beforeEvents.itemUseOn.subscribe(event => {
     const { block, itemStack, source: player } = event
 
